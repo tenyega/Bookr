@@ -42,10 +42,14 @@ python manage.py runserver
 
 | URL | Description |
 |-----|-------------|
-| `/livres/` | List of all books |
-| `/livres/filtered/` | Filtered book queries |
-| `/livres/status/` | Book statuses |
+| `/` | Home page |
 | `/admin/` | Django admin panel |
+| `/backoffice` | Backoffice index |
+| `/backoffice/getProduct` | List of products |
+| `/backoffice/getDetails` | Product details |
+| `/bookOnline/getLivres` | List of all books |
+| `/bookOnline/getLivresFiltered` | Filtered book queries |
+| `/bookOnline/getLivresStatus` | Book statuses |
 
 ## 👤 Author
 

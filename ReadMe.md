@@ -53,5 +53,5 @@ python manage.py runserver
 
 ## 👤 Author
 
-Master 2 — Tableau de Bord Project  
+Master 2-  
 March 2026

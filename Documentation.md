@@ -1,6 +1,6 @@
 # 📚 Bookr — Documentation Complète Django
 
-> Projet Django de gestion de livres — Master 2 Tableau de Bord — Mars 2026
+> Projet Django de gestion de livres — Master 2  — Mars 2026
 
 ---
 
@@ -483,4 +483,4 @@ git push origin v1.0
 
 ---
 
-*Projet Bookr — Master 2 Tableau de Bord — Mars 2026*
+*Projet Bookr — Mars 2026*

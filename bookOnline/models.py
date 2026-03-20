@@ -12,9 +12,9 @@ class LivreType(models.Model):
 
 class LivreStatus(models.Model):
     status = models.CharField(max_length=100)
-
     class Meta:
-        db_table = 'LivreStatus'  # matches your existing MySQL table name
+        verbose_name = "Livre Status"
+        verbose_name_plural = "Livre Statuses"
 
     def __str__(self):
         return self.status

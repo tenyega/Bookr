@@ -28,6 +28,7 @@ urlpatterns = [
     path('backoffice', backoffice.views.index),
     path('backoffice/getProduct', backoffice.views.getProduct),
     path('backoffice/getDetails', backoffice.views.getDetails),
+    path('bookOnline', bookOnline.views.getBookOnline), 
     path('bookOnline/getLivres', bookOnline.views.getLivres), 
     path('bookOnline/getLivresFiltered', bookOnline.views.getLivresFiltered), 
     path('bookOnline/getLivresStatus', bookOnline.views.getLivresStatus)

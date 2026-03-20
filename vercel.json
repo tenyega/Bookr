@@ -1,0 +1,22 @@
+{
+  "builds": [
+    {
+      "src": "wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "wsgi.py"
+    }
+  ]
+}
+```
+
+---
+
+### ✅ Make sure `requirements.txt` exists with at least:
+```
+django
+gunicorn

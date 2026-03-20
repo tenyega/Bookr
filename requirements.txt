@@ -1,8 +1,0 @@
-Django==6.0.3
-asgiref==3.11.1
-sqlparse==0.5.3
-mysqlclient==2.2.8
-gunicorn
-whitenoise
-geopy==2.4.1
-python-dotenv
